@@ -1,0 +1,10 @@
+    - name: Make sure that Nginx is installed
+      apt:
+        name: "{{ nginx_package }}={{ nginx_version }}"
+        state: "{{ install_state }}"
+        update_cache: true
+    - name: Make sure that Nginx is running
+      service:
+        name: "{{ nginx_service }}"
+        state: "{{ service_status }}"
+        enabled: true
