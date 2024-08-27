@@ -1,0 +1,6 @@
+nginx_package: nginx
+nginx_service: nginx
+install_state: present
+service_status: stopped
+webroot: /var/www/html
+first_website: website1.com
