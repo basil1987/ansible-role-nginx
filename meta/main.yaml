@@ -1,1 +1,19 @@
+---
+dependencies: []
 
+galaxy_info:
+  role_name: nginx
+  author: basil1987
+  description: Install and Start Nginx.
+  company: "DevOpsDoor"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.10
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+        - bookworm
+  galaxy_tags:
+    - nginx
+    - web
